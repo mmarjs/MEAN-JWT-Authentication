@@ -1,0 +1,8 @@
+<div class="col-md-6 col-md-offset-3 login">   
+    <h2>Login</h2>
+    <div>
+        <input name="username" [(ngModel)]="model.username" placeholder="Username" type="text" autocomplete="off" required /><br />
+        <input id="pw" name="password" placeholder="Password" type="password" [(ngModel)]="model.password" autocomplete="off" required /><br />        
+    </div><br /><br />
+    <input class="animated" type="submit" value="Log In" (click)="login()">    
+</div>

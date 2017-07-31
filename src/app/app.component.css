@@ -1,0 +1,33 @@
+/*nav {
+  padding: 17px;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}*/
+/*#nav-3 {
+  background: black;
+}*/
+/*.home {
+    display: inline-block;
+}
+.signup {
+    display: inline-block;
+    color: white;
+}
+.login {
+  display: inline-block;
+  float:right;
+  color: white;
+}
+a {
+  transition: 0.4s;
+  color: lightslategrey;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+a:hover {
+  background-color: #002222;
+  color: #FFFFFF;
+  padding: 18px 10px;
+}*/

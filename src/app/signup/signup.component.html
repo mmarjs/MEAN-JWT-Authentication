@@ -1,0 +1,13 @@
+<div class="col-md-6 col-md-offset-3 signup">   
+    <h2>Sign Up</h2>    
+    <div>
+        <input name="username" [(ngModel)]="model.username" placeholder="Username" type="text" autocomplete="off" required /><br />
+        <input id="pw" name="password" placeholder="Password" type="password" [(ngModel)]="model.password" autocomplete="off" required /><br />
+        <input name="email" placeholder="E-Mail Address" type="email" [(ngModel)]="model.email" autocomplete="off" required />
+    </div>
+    <div class="agree">
+        <input id="agree" name="agree" type="checkbox">    
+    </div>
+    <input class="animated" type="submit" value="Sign Up" (click)="signup()">
+    <a class="forgot" routerLink="/login">Already have an account?</a>       
+</div>

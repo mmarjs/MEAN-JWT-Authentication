@@ -1,0 +1,7 @@
+<div>
+  <h3>Users</h3>
+  <ul>
+    <li *ngFor="let userinfo of userInfo">{{userinfo.username}}</li>
+  </ul>
+  <a href="#" (click)="logout()">Log Out</a>
+</div>
